@@ -1,0 +1,115 @@
+body {
+   background-color: #cce3e8;
+   margin: 0px 0px;
+}
+.h_title{
+   text-align: center;
+   font-family: "Merriweather", serif;
+}
+.header__top {
+   background-color: #c1d9de;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.main {
+   height: 800px;
+   padding: 6px 32px;
+}
+.map{
+   display: flex;
+   justify-content: space-between; /* Розподіл елементів по ширині */
+   align-items: center; /* Вертикальне вирівнювання по центру */
+}
+.maps {
+   width: 250px;
+   height: 250px;
+   border-radius: 10%;
+   border: 1px solid #333;
+   margin-top: 10px;
+
+}
+.main__text {
+   display: flex;
+   font-size: 25px;
+   justify-content: space-between; /* Розподіл елементів по ширині */
+   align-items: center; /* Вертикальне вирівнювання по центру */
+   width: 100%;
+   font-family:"Merriweather", serif;
+   font-weight: bold;
+}
+.maps__1 {
+   display: flex;
+   justify-content: center;
+   width: 250px;
+   height: 250px;
+   border-radius: 10%;
+   border: 1px solid #333;
+   margin-top: 10px;
+}
+.maps__2 {
+   display: flex;
+   justify-content: center;
+   width: 250px;
+   height: 250px;
+   border-radius: 10%;
+   border: 1px solid #333;
+   margin-top: 10px;
+   margin-right: 4%;
+}
+
+.left {
+   margin-left: 12px;
+}
+.center {
+   margin-left: 3%;
+}
+.body__text{
+   font-size: 25px;
+   text-align: center;
+   font-family:"Merriweather", serif;
+   font-weight: bold;
+   margin-top: 15px;
+}
+.youtube__contain {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.youtube {
+   width: 670px;
+   height: 355px;
+   border-radius: 4%;
+   border: 1px solid #333;
+   margin-top: 3px;
+}
+.body__text1 {
+   margin-left: 12px;
+   font-family:"Merriweather", serif;
+   font-weight: bold;
+   font-size: 25px;
+   margin-top: 15px;
+}
+.contain__down {
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+
+}
+.logo__face {
+   height: 49px;
+   width: 45px;
+}
+.logo__ins {
+   height: 50px;
+   width: 66px;
+}
+.logo__youtube {
+   width: 65px;
+   height: 45px;
+}
+.audio__1 {
+   margin-top: 5px;
+}
